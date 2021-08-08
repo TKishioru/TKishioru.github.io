@@ -3,5 +3,6 @@
 > 00_CV
 > link : https://tkishioru.github.io/00_CV/index.html
 > Detail
-- Date:04/08/2021 - 08/08/201
+- Date:04/08/2021 - 08/08/2021
+- Subject : 01076008 SOFTWARE DEVELOPMENT PROCESS
 - [x] Send
