@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!--using FontAwesome/BS5---------------->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- add icon link -->
+    <link rel="icon" href="picture/icon0.png" type="image/x-icon">
+
+    <!-- add css -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/edu.css">
+    <link rel="stylesheet" href="css/skill.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/exper.css">
+    <style>
+        .img-bg {
+            background: url('picture/p02.png');
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            /*background-size: 100%;*/
+            background-attachment: fixed;
+            background-position: center top;
+            clip-path: circle(150px at center);
+            background-repeat: no-repeat;
+            background-size: auto;
+        }
+
+        .tab-content {
+            padding-top: 3vh;
+        }
+
+        /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+        .sticky+.content {
+            padding-top: 60px;
+        }
+    </style>
+    <title>My CV | 0090</title>
+</head>
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="Maintitle">Welcome <br> <span class="tell">" When the world needs, So we have presented this. "</span></h1>
+                <div class="img-bg" id="myImg"></div>
+                <div class="content">
+                    <div class="container">
+                        <div id="navbar">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#education">Education</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#skills">Skills</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#experience">Experience</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div id="about" class="container tab-pane active">
+                                <h1>About</h1>
+                                <div class="Acard-container">
+                                    <div class="Acard u-clearfix">
+                                        <div class="Acard-body">
+                                            <span class="Acard-number Acard-circle subtle">TK</span>
+                                            <span class="Acard-author subtle">Student ID : 62010090</span>
+                                            <h2 class="Acard-title">คัมภีรดา ภู่ทอง</h2>
+                                            <div class="Acard-read">หรือเรียกว่า "ข้าว"</div>
+                                            <span class="Acard-description subtle">วันเดือนปีเกิด : 27 กรกฏาคม 2544
+                                                <br>ที่อยู่ : ที่อยู่ 38/9 หมู่ที่ 2 ถนนลำท่าแดง ตำบลศาลาแดง
+                                                อำเภอเมืองอ่างทอง
+                                                จังหวัดอ่างทอง 14000
+                                                <br>
+                                                <br>
+                                                <p style="color: rgb(77, 77, 77);">เป้าหมาย</p>
+                                                <p>" จงสร้างฝันด้วยความสามารถไม่ใช่แรงศรัทธา "</p>
+                                                <br>
+                                            </span>
+                                            <div class="CVbtn_wrap" style="margin-left: 5%;">
+                                                <span class="CT_span">Contact</span>
+                                                <div class="Cocontainer">
+                                                    <a href="https://www.facebook.com/tk.khampeerada/" target="_blank"
+                                                        title="Facebook"><img src="picture/icon1.svg" class="icon"></a>
+                                                    <a href="https://twitter.com/TK_ishioru" target="_blank"
+                                                        title="Twitter"><img src="picture/icon2.svg" class="icon"></a>
+                                                    <a href="https://www.instagram.com/tk._.ishioru/?hl=th"
+                                                        target="_blank" title="Instagram"><img src="picture/icon3.svg"
+                                                            class="icon"></a>
+                                                    <a href="https://github.com/TKishioru" target="_blank"
+                                                        title="Github"><img src="picture/icon4.svg" class="icon"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <img src="picture/p03.png" class="Acard-media" />
+                                    </div>
+                                    <div class="Acard-shadow"></div>
+                                </div>
+                            </div>
+                            <div id="education" class="container tab-pane fade">
+                                <h1>Education</h1>
+                                <div style="margin-left: 3vw; margin-bottom: 17vw;">
+                                    <div class="skill-card">
+                                        <header class="skill-card__header"><img class="skill-card__icon"
+                                                src="picture/P20.jpg" alt="SS" />
+                                        </header>
+                                        <section class="skill-card__body">
+                                            <h2 class="skill-card__title">Elementary School</h2><span
+                                                class="skill-card__duration">โรงเรียนสนามชัยสิทธินุสรณ์</span>
+                                            <ul class="skill-card__knowledge">
+                                                <li>ปีการศึกษา 2550 - 2555</li>
+                                                <li>เกรดเฉลี่ย 4.00</li>
+                                            </ul>
+                                        </section>
+                                    </div>
+                                    <div class="skill-card">
+                                        <header class="skill-card__header"><img class="skill-card__icon"
+                                                src="picture/P21.jpg" alt="AYW" />
+                                        </header>
+                                        <section class="skill-card__body">
+                                            <h2 class="skill-card__title">Junior High School</h2><span
+                                                class="skill-card__duration">โรงเรียนอยุธยาวิทยาลัย</span>
+                                            <ul class="skill-card__knowledge">
+                                                <li>ปีการศึกษา 2556 - 2558</li>
+                                                <li>เกรดเฉลี่ย 3.95</li>
+                                            </ul>
+                                        </section>
+                                    </div>
+                                    <div class="skill-card">
+                                        <header class="skill-card__header"><img class="skill-card__icon"
+                                                src="picture/P22.jpg" alt="AYW" />
+                                        </header>
+                                        <section class="skill-card__body">
+                                            <h2 class="skill-card__title">Senior High School</h2><span
+                                                class="skill-card__duration">โรงเรียนอยุธยาวิทยาลัย</span>
+                                            <ul class="skill-card__knowledge">
+                                                <li>ปีการศึกษา 2559 - 2561</li>
+                                                <li>เกรดเฉลี่ย 3.87</li>
+                                            </ul>
+                                        </section>
+                                    </div>
+                                    <div class="skill-card">
+                                        <header class="skill-card__header"><img class="skill-card__icon"
+                                                src="picture/P23.jpg" alt="KMITL" /></header>
+                                        <section class="skill-card__body">
+                                            <h2 class="skill-card__title">Bachelor Degrees</h2><span
+                                                class="skill-card__duration">สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</span>
+                                            <ul class="skill-card__knowledge">
+                                                <li>ปีการศึกษา 2562 - ปัจจุบัน</li>
+                                                <li>คณะวิศวกรรมศาสตร์ ภาควิชาคอมพิวเตอร์</li>
+                                            </ul>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="skills" class="container tab-pane fade">
+                                <h1>Skills</h1>
+                                <div class="skill_contect">
+                                    <ul class="lines skillul">
+                                        <li class="line l--0">
+                                            <span class="line__label title">
+                                                Skill level:
+                                            </span>
+                                        </li>
+                                        <li class="line l--25">
+                                            <span class="line__label">
+                                                The basics
+                                            </span>
+                                        </li>
+                                        <li class="line l--50">
+                                            <span class="line__label">
+                                                Advanced
+                                            </span>
+                                        </li>
+                                        <li class="line l--75">
+                                            <span class="line__label">
+                                                Seasoned
+                                            </span>
+                                        </li>
+                                        <li class="line l--100">
+                                            <span class="line__label">
+                                                Expert
+                                            </span>
+                                        </li>
+                                    </ul>
+
+                                    <div class="charts">
+                                        <div class="chart chart--dev">
+                                            <span class="chart__title">Development</span>
+                                            <ul class="chart--horiz skillul">
+                                                <li class="chart__bar" style="width: 55%;">
+                                                    <span class="chart__label">
+                                                        VB.net
+                                                    </span>
+                                                </li>
+                                                <li class="chart__bar" style="width: 75%;">
+                                                    <span class="chart__label">
+                                                        C/C++
+                                                    </span>
+                                                </li>
+                                                <li class="chart__bar" style="width: 70%;">
+                                                    <span class="chart__label">
+                                                        HTML /CSS /JS
+                                                    </span>
+                                                </li>
+                                                <li class="chart__bar" style="width: 65%;">
+                                                    <span class="chart__label">
+                                                        Python
+                                                    </span>
+                                                </li>
+                                                <li class="chart__bar" style="width: 65%;">
+                                                    <span class="chart__label">
+                                                        Java
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="chart chart--prod">
+                                            <span class="chart__title">Productivity</span>
+                                            <ul class="chart--horiz skillul">
+                                                <li class="chart__bar" style="width: 90%;">
+                                                    <span class="chart__label">
+                                                        Microsoft Office
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="chart chart--design">
+                                            <span class="chart__title">Design</span>
+                                            <ul class="chart--horiz skillul">
+
+                                                <li class="chart__bar" style="width: 80%;">
+                                                    <span class="chart__label">
+                                                        Photoshop
+                                                    </span>
+                                                </li>
+                                                <li class="chart__bar" style="width:80%;">
+                                                    <span class="chart__label">
+                                                        Illustrator
+                                                    </span>
+                                                </li>
+                                                <li class="chart__bar" style="width: 70%;">
+                                                    <span class="chart__label">
+                                                        Vegas Pro
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="experience" class="container tab-pane fade">
+                                <h1>Experience</h1>
+                                <section class="hero-section">
+                                    <div class="EXcard-grid">
+                                        <div class="EXcard">
+                                            <div class="EXcard__background"
+                                                style="background-image: url(picture/P30.jpg)">
+                                                <div class="BG_txt">
+                                                    <div class="txt">
+                                                        <h3>เข้าร่วมการแข่งขันตัดต่อวีดีโอ</h3>
+                                                        <p class="EXp">
+                                                            เป็นกิจกรรมที่จัดภายใต้หัวข้อ "ตลาดต้องชม"
+                                                            ซึ่งทางกรมการค้าภายในต้องการสนับสนุนให้ผู้คนสนใจสถานที่ดีๆในท้องถิ่นของแต่ละจังหวัด
+                                                        </p>
+                                                        <br><br>
+                                                        <a href="https://www.youtube.com/watch?v=CcPduE4t_uU&ab_channel=TKKhampeerada"
+                                                            target="_blank" class="EXa">Click for watch VDO</a>
+                                                    </div>
+                                                </div>
+                                                <div class="EXcard__content">
+                                                    <p class="EXcard__category">Senior High School</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="EXcard">
+                                            <div class="EXcard__background"
+                                                style="background-image: url(picture/P31.jpg)">
+                                                <div class="BG_txt">
+                                                    <div class="txt">
+                                                        <h3>เข้าร่วมการแข่งขันทำการ์ตูนแอนิเมชั่น</h3>
+                                                        <p class="EXp">
+                                                            ได้เข้าร่วมงานศิลปหัตถกรรมนักเรียน ครั้งที่ 65
+                                                            โดยได้รางวัลรองชนะเลิศ
+                                                            ระดับเขตพื้นที่การศึกษา
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="EXcard__content">
+                                                    <p class="EXcard__category">Junior High School</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="EXcard">
+                                            <div class="EXcard__background"
+                                                style="background-image: url(picture/P32.jpg)">
+                                                <div class="BG_txt">
+                                                    <div class="txt">
+                                                        <h3>การทำเว็บไซต์ </h3>
+                                                        <p class="EXp">
+                                                            เป็นการฝึกเขียนเว็บไซด์ในหัวข้อ
+                                                            "สถานที่ท่องเที่ยวในจังหวัดพระนครศรีอยุธยา"
+                                                            โดยใช้โปรแกรม WebPage Maker
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="EXcard__content">
+                                                    <p class="EXcard__category">Senior High School</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="EXcard">
+                                            <div class="EXcard__background"
+                                                style="background-image: url(picture/P33.jpg)">
+                                                <div class="BG_txt">
+                                                    <div class="txt">
+                                                        <h3>การวาดการ์ตูน</h3>
+                                                        <p class="EXp">
+                                                            เป็นการฝึกวาดรูปและลงสีการ์ตูนอนิเมชันที่ชอบ โดยใช้โปรแกรม
+                                                            SAI
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="EXcard__content">
+                                                    <p class="EXcard__category">Junior High School</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="EXcard">
+                                            <div class="EXcard__background"
+                                                style="background-image: url(picture/P34.jpg)">
+                                                <div class="BG_txt">
+                                                    <div class="txt">
+                                                        <h3>การทำกราฟิก</h3>
+                                                        <p class="EXp">
+                                                            เป็นผลงานที่ขัดเกลาฝีมือมาอย่างยาวนานโดยใช้โปรแกรม Adobe
+                                                            Illustrator & Adobe
+                                                            Photoshop
+                                                            ซึ่งผลงานที่ทำเป็นประจำ คือ ทำป้ายไวนิลให้กับทางโรงเรียน
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="EXcard__content">
+                                                    <p class="EXcard__category">Senior High School</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="EXcard">
+                                            <div class="EXcard__background"
+                                                style="background-image: url(picture/P35.jpg)">
+                                                <div class="BG_txt">
+                                                    <div class="txt">
+                                                        <h3>การฝึกเขียนโปรแกรม</h3>
+                                                        <p class="EXp">
+                                                            ไม่ว่าจะก่อนหรือหลังจากได้เรียนวิศวะก็ได้ฝึกเขียนโปรแกรมเรื่อยมา
+                                                            โดยทั้งการเขียนเกม
+                                                            เขียนโปรแกรมช่วยในการค้าขาย ฯลฯ
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="EXcard__content">
+                                                    <p class="EXcard__category">Bachelor Degrees</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="EXcard">
+                                            <div class="EXcard__background"
+                                                style="background-image: url(picture/P36.jpg)">
+                                                <div class="BG_txt">
+                                                    <div class="txt">
+                                                        <h3>ชมรมมัคคุเทศก์โรงเรียนอยุธยาวิทยาลัย</h3>
+                                                        <p class="EXp">
+                                                            เป็นชมรมที่พานักเรียนมาการแนะนำสถานที่ท่องให้แก่นักท่องเที่ยวที่เข้ามาชมโบราณสถานในจังหวัดพระนครศรีอยุธยา
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="EXcard__content">
+                                                    <p class="EXcard__category">Junior High School</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="EXcard">
+                                            <div class="EXcard__background"
+                                                style="background-image: url(picture/P37.jpg)">
+                                                <div class="BG_txt">
+                                                    <div class="txt">
+                                                        <h3>การเข้าร่วมในกิจกรรมที่เกี่ยวกับวัฒนธรรมญี่ปุ่น</h3>
+                                                        <p class="EXp">
+                                                            เป็นกิจกรรมที่จัดประจำทุกปี ทั้งภายในโรงเรียนหรือนอกโรงเรียน
+                                                            1. การแข่งขันคารุตะ
+                                                            2. การเขียนพู่กัน
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="EXcard__content">
+                                                    <p class="EXcard__category">Senior High School</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/home.js"></script>
+        <script src="js/nav.js"></script>
+</section>
+
+<body>
+
+
+</body>
+
+</html>

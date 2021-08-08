@@ -1,9 +1,7 @@
 # TKishioru.github.io
-#001 :: It's a part-time job on website.
-> W_leakna
-> link : https://tkishioru.github.io/W_leakna/index.html
+#00 :: It's My CV on website.
+> 00_CV
+> link : https://tkishioru.github.io/00_CV/index.html
 > Detail
-- Date:28/01/2022 1. Talk and Create UX/UI.
-
-- [x] Design
-- [ ] check
+- Date:04/08/2021 - 08/08/201
+- [x] Send
